@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .button-outline{
+        @apply rounded-md border-2
+        border-primary hover:bg-primary
+        hover:text-white duration-500 py-2  
+        px-6 text-primary tracking-wider cursor-pointer;
+    }
+}
